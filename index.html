@@ -50,13 +50,13 @@
           <a class="p-2 text-muted" href="#TecnicasBasicas">Tecnicas basicas</a>
           <a class="p-2 text-muted" href="#TecnicasAvanzadas">Tecnica intermedias y avanzadas</a>
           <a class="p-2 text-muted" href="#">Hatsu</a>
-          <a class="p-2 text-muted" href="#">Intensificacion</a>
-          <a class="p-2 text-muted" href="#">Transformacion</a>
-          <a class="p-2 text-muted" href="#">Emision</a>
-          <a class="p-2 text-muted" href="#">Materializacion</a>
-          <a class="p-2 text-muted" href="#">Control</a>
-          <a class="p-2 text-muted" href="#">Especializacion</a>
-          <a class="p-2 text-muted" href="#">Dotes</a>
+          <a class="p-2 text-muted" href="#hatsuIntensificar">Intensificacion</a>
+          <a class="p-2 text-muted" href="#hatsuEmitir">Emision</a>
+          <a class="p-2 text-muted" href="#hatsuTransformar">Transformacion</a>
+          <a class="p-2 text-muted" href="#hatsuControlar">Control</a>
+          <a class="p-2 text-muted" href="#hatsuMaterializar">Materializacion</a>
+          <a class="p-2 text-muted" href="#hatsuEspecial">Especializacion</a>
+          <a class="p-2 text-muted" href="#dotes">Dotes</a>
         </nav>
       </div>
 
@@ -190,6 +190,7 @@
           <div >
             <h3 class="blog-post-title" id="ProgresionUsuario">Progresion del Usuario de Nen</h3>
 
+            
             <table class="table table-striped" style="text-align: center;">
                 <thead class="thead-dark">
                   <tr>
@@ -405,7 +406,10 @@
                 </li>
                 <li >Utilizar una mayor cantidad de Aura para activar de forma mas eficiente (en terminos de acción) una técnica de Nen, según la siguiente tabla:
                     <div class="row justify-content-center" style="padding-top: 10px; padding-bottom: 10px;">
-                        <div class="col-6" >
+                        <div class="col-4" >
+                          <h4>
+                            Tecnicas basicas
+                          </h4>
                         <table class="table table-striped" style="text-align: center;">
                             <thead>
                                 <tr>
@@ -434,11 +438,77 @@
                             </tbody>
                         </thead>
                     </table>
-                    <i >
-                      Nota:  Usuarios mas experimentados tienen un control tan avanzado del flujo de su aura que son capaces de movilizarla en fracciones de segundos (ver <a href="#Dotes">Dotes</a> y <a href="#TecnicasAvanzadas">Tecnicas avanzadas</a>). 
-                    </i>
-
+                                     
                     </div>
+                    <div class="col-4">
+                      <h4>
+                        Tecnicas intermedias
+                      </h4>
+                      <table class="table table-striped" style="text-align: center;">
+                        <thead>
+                            <tr>
+                                <th scope="col">Action</th>
+                                <th scope="col">Aura</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Bonus</th>
+                                <td> x1 </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Free (en tu turno)</th>
+                                <td>x3</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Reacción</th>
+                                <td>x4</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Free (no en tu turno)</th>
+                                <td>x5</td>
+                            </tr>
+                        </tbody>
+                    </thead>
+                </table>
+                    </div>
+                    <div class="col-4">
+                      <h4>
+                        Tecnicas Avanzadas (construccion)
+                      </h4>
+                      <table class="table table-striped" style="text-align: center;">
+                        <thead>
+                            <tr>
+                                <th scope="col">Action</th>
+                                <th scope="col">Aura</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Bonus</th>
+                                <td> ---</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Free (en tu turno)</th>
+                                <td>---</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Reacción</th>
+                                <td>---</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Free (no en tu turno)</th>
+                                <td>---</td>
+                            </tr>
+                        </tbody>
+                    </thead>
+                </table>
+                    </div>
+                      <i >
+                        Nota:  Usuarios mas experimentados tienen un control tan avanzado del flujo de su aura que son capaces de movilizarla en fracciones de segundos (ver <a href="#Dotes">Dotes</a> y <a href="#TecnicasAvanzadas">Tecnicas avanzadas</a>). 
+                      </i>
                 </div>
 
                 </li>
@@ -732,12 +802,12 @@
         </p>
         <ul>
           <li>
-            Mientras Ren esté activo, puedes usar tu Atributo Nen en lugar de Fuerza para las tiradas de ataque y daño de tus golpes sin armas y armas simples.
+            Mientras Ren esté activo, puedes usar tu Atributo Nen en lugar de Fuerza para las tiradas de ataque y daño de tus golpes sin armas y armas simples cuerpo a cuerpo.
           </li>
           <li>
             Mientras Ren esté activo, el daño de tus ataques sin arma es igual a 1d6, 
             Adicionalmente, cuando usas la acción de Ataque con un golpe sin armas o un arma simple en tu turno, 
-            puedes hacer un ataque adicional sin arma como Acción Bonus.
+            puedes hacer un ataque adicional sin arma como Acción Bonus. Si ya puedes realizar uno o mas ataques con tu Acción Bonus, puedes realizar uno adicional.
           </li>
           <li>
             Como parte de la acción de activación <strong>Ren</strong>, puedes obtener un <strong>Pool de Daño del Aura (Daño de Aura)</strong> igual a tus instancias de Nen. 
@@ -1124,6 +1194,7 @@
           </div>
         </div>
 
+        <div id="hatsuIntensificar">
         <h4 class="text-center" style="padding-bottom: 10px; padding-top: 10px;">
           Intensificar (強)
         </h4>
@@ -1250,7 +1321,9 @@
     </ul>
   </div>
 </div>
+        </div>
 
+        <div id="hatsuEmitir">
         <h4 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">
           Emitir (放)
         </h4>
@@ -1283,6 +1356,9 @@
               Rasgos de Afinidad
             </h5>
             <ul>
+              <li>
+                Los usuarios de Emisión puede utilizar Ren sobre armas simples de rango y sobre cantrips, con un nivel máximo de Ren equivalente al nivel de Emison.  
+              </li>
               <li>
                 El usuario de Emisión puede aumentar su alcance para ataques melee (incluyendo armas arrojadizas) y de rango. Esto también incluye conjuros (de toque y rango)
               </li>
@@ -1394,7 +1470,9 @@
                   </table>
           </div>
           </div>
+        </div>
 
+        <div id="hatsuTransformar">
         <h4 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">
           Transformar (変)
         </h4>
@@ -1416,10 +1494,128 @@
             </p>
           </div>
         </div>
+        <div class="row">
+          <div class="col-8">
+            <h5>
+              Rasgos de Afinidad
+            </h5>
+            <ul>
+              <li>
+                El Transformador puede cambiar su aura para que tome la forma de algún "keyword" en particular.
+                aumentan su complejidad a medida que progresa. Adicionalmente, el usuario puede elegir que su aura se "comporte" como dicho "Keyword".
+                Para esto, debe seguir las siguientes reglas.
+                </li>
+                <ul>
+              <li> 
+                Al comenzar el día, el usuario debe elegir UNO de los keyword a los que tiene acceso, siendo este el keyword que manejara por ese día.
+              </li>
+              <li>
+                Este keyword solo puede ser cambiado mediante un descanso largo.
+              </li>
+              </ul>
+              <li>
+                El Transformador puede utilizar esta aura de forma ofensiva o defensiva.
+              </li>
+              <ul>
+                <li>
+                  Para hacer esto, el usuario debe utilizar una Acción Bonus, y decidir cuánta Aura invertirá en Transformación.
+                </li>
+              <li>
+                El Transformador puede gastar tanta aura como instancias de Nen posea (dependiendo del nivel).
+              </li>
+            <li>
+              El utilizar el aura de forma ofensiva, otorga daño adicional del keyword escogido al golpear un objetivo, dependiendo de las instancias de Nen que el usuario decida utilizar.  
+        </li>
+        <li>
+          Utilizar el aur de forma defensiva tiene el mismo efecto, pero el objetivo recibe daño al golpear al usuario Transformador. 
+        </li>
+      </ul>
+              <li>
+                El transformar su aura en un elemento NO le otorga inmunidad al manipulador, por lo que utilizar transformación sin protección puede generar también daño para el usuario.
+              </li>
+       
+
+       
+          </div>
+          <div class="col-4">
+            <table class="table table-striped" id="ProgresionBasicas" style="text-align: center;">
+              <!-- <h4> Progresión de Técnicas Básicas</h4> -->
+              <thead>
+                  <tr>
+                      <th scope="col">Nivel</th>
+                      <th scope="col">Daño básico/máximo</th>
+                      <th scope="col">Keywords</th>
+            
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td scope="row">1st</td>
+                      <td>1d6</td>
+                      <td> Cortante/Perforante/Contundente </td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">2nd</td>
+                    <td> --- </td>
+                    <td> --- </td>
+            
+                </tr>
+                  <tr>
+                    <td scope="row">3rd</td>
+                    <td> 1d6/1d8 </td>
+                    <td> Fuego/Hielo </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 4th</td>
+                    <td> 2d6/2d8 </td>
+                    <td> --- </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">5th</td>
+                    <td> --- </td>
+                    <td> Lightning/Poison </td>
+                    
+                  </tr>
+                  <tr>
+                    <td scope="row">6th</td>
+                    <td> 2d6/2d10 </td>
+                    <td> --- </td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">7th</td>
+                    <td> 3d6/3d10 </td>
+                    <td> Thunder/Acid </td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">8th</td>
+                    <td> --- </td>
+                    <td>  --- </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 9th</td>
+                    <td> 3d6/3d12 </td>
+                    <td> Necrotic/Radiant </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 10th</td>
+                    <td> 4d6/4d12 </td>
+                    <td> --- </td>
+            
+                  </tr>
+                  </tbody>
+                  </table>
+          </div>
+          </div>
+        </div>
+
+        <div id="hatsuControlar">
+
         <h4 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">
           Controlar (操)
         </h4>
-
         <div class="row">
           <div class="col-8">
             <p>
@@ -1444,6 +1640,144 @@
             <img src="assets/Manipulator_Diagram.svg" alt="" width="100%">
           </div>
         </div>
+        <div class="row">
+          <div class="col-8">
+            <h5>
+              Rasgos de Afinidad
+            </h5>
+            <ul>
+              <li>
+                El usuario de Control puede utilizar su aura para ejercer varios efectos sobre objetos o seres vivos. Para hacer esto, el usuario debe impregnar su aura en el objetico, y utilizar una Acción para concentrarse en controlarlo. Esto puede ser efectuado mediante contacto físico (un toque), o cualquier otro medio que logra poner el aura del usuario en contacto con el objetivo, y utiizar una Acción para concentrarse.
+              </li>
+              <!-- <li>
+                El controlador puede dar una orden simple sobre un objetivo vivo.
+              </li>
+              <ul>
+                <li>
+                  Una vez que el Controlador haga contacto con el objetivo, debe dar una única orden que el objetivo intentará cumplir lo antes posible.
+                </li>
+                <li>
+                  La naturaleza de la orden está limitada por el nivel de Control del Usuario, y la cantidad de Aura necesaria estará determinada por el nivel de Control que requiere dicho tipo de orden.
+                </li>
+                <li>
+                  Lo que el Controlador puede ordenar estará determinado por el DM, quien a la vez determinará qué nivel de Control se requiere para dar dicha orden. 
+                </li>
+                <li>
+                  Para tener una idea, control nivel 1 permitirá dar ordenes sencillas ("pásame ese objeto"), mientras que el nivel 10 permitirá obligar al usuario a realizar cosas que podrían atentar contra su vida ("ataca a ese guardia"), sin hacer que atente directamente contra su vida.
+                </li>
+              </ul> -->
+              <li>
+                El controlador puede manipar un objeto inerte. Una vez que el objetivo toque un objeto y lo impregne con su aura, puede moverlo y manipularlo a voluntad como el conjuro Mano de Mago.
+                </li>
+
+                <li>
+                  En combate, el Controlador puede provocar diversos efectos su objetivo, determinados por la tabla del Controlador. 
+                </li>
+                <ul>
+                  <li>
+                    Una vez que el usuario haga contacto con su objetivo, debe elegir a qué condición quiere someterlo. Y el objetivo debe hacer una tirada de salvacion de Nen, que puede ser modificada según el aura invertida por el Controlador (ver mas abajo).
+                  </li>
+                  <li>
+                    La cantidad de aura que debe utilizar se calcula según la condición que se quiera imponer. El máximo de la base, según el nivel de la condición. Por ejemplo, Dazed es nivel 7, gasta 3 de aura como base (ver tabla "Progresión de técnicas básicas").
+                
+                  <li>
+                    La duración del efecto se calcula como el resultado del dado dividido la base (aproximado hacia abajo), en turnos. Esto se efectua como sustain bonus, gastando el aura cada turno. Por ejemplo, Dazed tiene como base 3. Si elijo lanzar 1d6 (no aumentar el dado), y mi resultado es 3 o menos, durará 1 turno y gastaré 3 adicional de aura. Siguiendo el ejemplo anterior, llevaría 6 en total. Si elijo aumentar a d8, el coste sube a 2*base, o sea 8, para un total de 11.  
+                  </li>
+                  <li>
+                    Las instancias de Nen pueden utilizarse de dos formas:
+                  </li>
+                  <ul>
+
+                    <li>
+                      Para aumentar la duración del efecto, se puede utilizar instancias de Nen para multiplicar el resultado final. En el ejemplo anterior, si deseo usar 3 instancias de Nen para que el efecto dure 3 turnos, debería gastar 18 de aura en total.
+                    </li>
+                  <li>
+                    Para dar penalizador a la tirada de salvacion del objetivo. Invirtiendo la misma cantidad de Aura del ejemplo anterior, se puede dar un penalizador de -3 al usuario en su tirada de salvacion
+                  </li>    
+                  </ul>
+                <li>
+                  IMPORTANTE: El aura invertida debe gastarse en cada turno, al hacer el sustain bonus.
+                </li>
+                
+              </div>
+
+          
+          <div class="col-4">
+            <table class="table table-striped" id="ProgresionBasicas" style="text-align: center;">
+              <!-- <h4> Progresión de Técnicas Básicas</h4> -->
+              <thead>
+                  <tr>
+                      <th scope="col">Nivel</th>
+                      <th scope="col">Condición</th>
+                      <th scope="col">Dur./Pen.</th>
+            
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td scope="row">1st</td>
+                      <td>Slow</td>
+                      <td> - / - </td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">2nd</td>
+                    <td> Poisoned </td>
+                    <td> - / -1 </td>
+            
+                </tr>
+                  <tr>
+                    <td scope="row">3rd</td>
+                    <td> Blind </td>
+                    <td> x2 / -1 </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 4th</td>
+                    <td> Prone </td>
+                    <td> x2 / -2 </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">5th</td>
+                    <td> Restrained </td>
+                    <td> x2 / -2 </td>
+                    
+                  </tr>
+                  <tr>
+                    <td scope="row">6th</td>
+                    <td> Charmed </td>
+                    <td> x2 / -3 </td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">7th</td>
+                    <td>  Dazed </td>
+                    <td> x3 / -3</td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">8th</td>
+                    <td> Incapacitado </td>
+                    <td> x3 / -3 </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 9th</td>
+                    <td> Paralizado </td>
+                    <td> x3 / -4 </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 10th</td>
+                    <td> Stun </td>
+                    <td> x4 / -4 </td>
+            
+                  </tr>
+                  </tbody>
+                  </table>
+          </div>
+          </div>
+        </div>
+
+
+        <div id="hatsuMaterializar">
         <h4 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">
           Materializar (具)
         </h4>
@@ -1471,11 +1805,130 @@
               Se pueden imbuir condiciones en los objetos materializados para hacerlos más poderosos. 
               Recurriendo a las limitaciones, un Materializador puede llevar su habilidad un paso más allá y materializar objetos con propiedades 
               que se acercan aún más a superar la capacidad humana, aunque siguen sin poder superarla.
-
-
             </p>
           </div>
         </div>
+        <div class="row">
+          <div class="col-8">
+            <h5>
+              Rasgos de Afinidad
+            </h5>
+            <ul>
+              <li>
+                El usuario de Matrialización crear objetos a partir únicamente de su aura.
+              </li>
+              <ul>
+                <li>
+                  Para hacer esto, el usuario debe utilizar una Asalto completo, y decidir cuánta Aura invertirá en Materializacion.
+                </li>
+                <li>
+                  El Materializador puede gastar tanta aura como instancias de Nen posea (dependiendo del nivel).
+                </li>
+                <li>
+                  Armas Melee: Por cada instancia utilizada puede aumentar su reach en 5' (hasta un maximo de 20')
+                  Armas de rango: Por cada instancia utilizada aumenta su rango corto en 10' (hasta un máximo de 40') y largo en 20' (hasta un máximo de 80', si aplica). 
+                </li>
+              </ul>
+              <li>
+                El usuario de Emisión puede "Desprender" su aura de su cuerpo.
+              </li>
+              <ul>
+                <li>
+                  Esta habilidad puede utilizarse forma ofensiva, invirtiendo o no invirtiendo aura.
+                </li>
+                <li>
+                  Si el usuario no invierte Aura, como Acción, puede realizar un ataque de 1d6 de daño (contundente) de rango 30'. La cantidad de dados aumenta según 
+                  la cantidad de instancias de Nen que se posean en Emisión.
+                </li>
+                <li>
+                  Si el usuario de Emisión desea invertir Aura, este ataque gana Keyword "Nen". Además, el usuario de Nen puede aumentar el tamaño del cada dado, invirtiendo 2 de aura por aumento, por dado. Finalmente, este ataque gana rango largo de 120'.
+                </li>
+                <li>
+                  Este ataque se considera un ataque de rango, por lo que su distancia puede ser aumentada invirtiendo Aura según el punto anterior.
+                </li>
+                <li>
+                  Desprender no está limitado a funciones ofensivas.
+                </li>
+              </ul>
+
+            </ul>
+          </div>
+          <div class="col-4">
+            <table class="table table-striped" id="ProgresionBasicas" style="text-align: center;">
+              <!-- <h4> Progresión de Técnicas Básicas</h4> -->
+              <thead>
+                  <tr>
+                      <th scope="col">Nivel</th>
+                      <th scope="col">Daño básico/máximo</th>
+                      <th scope="col">Rango máximo</th>
+            
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td scope="row">1st</td>
+                      <td>1d6</td>
+                      <td> 5'/10'/20' </td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">2nd</td>
+                    <td> --- </td>
+                    <td> --- </td>
+            
+                </tr>
+                  <tr>
+                    <td scope="row">3rd</td>
+                    <td> 1d6/1d8 </td>
+                    <td> --- </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 4th</td>
+                    <td> 2d6/2d8 </td>
+                    <td> 10'/20'/40' </td>
+                  </tr>
+                  <tr>
+                    <td scope="row">5th</td>
+                    <td> --- </td>
+                    <td> --- </td>
+                    
+                  </tr>
+                  <tr>
+                    <td scope="row">6th</td>
+                    <td> 2d6/2d10 </td>
+                    <td> --- </td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">7th</td>
+                    <td> 3d6/3d10 </td>
+                    <td> 15'/30'/60'</td>
+            
+                  </tr>
+                  <tr>
+                    <td scope="row">8th</td>
+                    <td> --- </td>
+                    <td> --- </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 9th</td>
+                    <td> 3d6/3d12 </td>
+                    <td> -- </td>
+                  </tr>
+                  <tr>
+                    <td scope="row"> 10th</td>
+                    <td> 4d6/4d12 </td>
+                    <td> 20'/40'/80' </td>
+            
+                  </tr>
+                  </tbody>
+                  </table>
+          </div>
+          </div>
+        </div>
+
+
+        <div id="hatsuEspecial">
         <h4 class="text-center" style="padding-top: 10px; padding-bottom: 10px;">
           Especial (特)
         </h4>
@@ -1509,15 +1962,133 @@
             <img src="assets/Specialist_Diagram.svg" alt="" width="100%">
           </div>
         </div>
- 
-      </div>
+      
+      <div class="row">
+        <div class="col-8">
+          <h5>
+            Rasgos de Afinidad
+          </h5>
+          <ul>
+            <li>
+              El usuario de Emisión puede aumentar su alcance para ataques melee (incluyendo armas arrojadizas) y de rango. Esto también incluye conjuros (de toque y rango)
+            </li>
+            <ul>
+              <li>
+                Para hacer esto, el usuario debe utilizar una Acción Bonus, y decidir cuánta Aura invertirá en Emisión.
+              </li>
+              <li>
+                El Emisor puede gastar tanta aura como instancias de Nen posea (dependiendo del nivel).
+              </li>
+              <li>
+                Armas Melee: Por cada instancia utilizada puede aumentar su reach en 5' (hasta un maximo de 20')
+                Armas de rango: Por cada instancia utilizada aumenta su rango corto en 10' (hasta un máximo de 40') y largo en 20' (hasta un máximo de 80', si aplica). 
+              </li>
+            </ul>
+            <li>
+              El usuario de Emisión puede "Desprender" su aura de su cuerpo.
+            </li>
+            <ul>
+              <li>
+                Esta habilidad puede utilizarse forma ofensiva, invirtiendo o no invirtiendo aura.
+              </li>
+              <li>
+                Si el usuario no invierte Aura, como Acción, puede realizar un ataque de 1d6 de daño (contundente) de rango 30'. La cantidad de dados aumenta según 
+                la cantidad de instancias de Nen que se posean en Emisión.
+              </li>
+              <li>
+                Si el usuario de Emisión desea invertir Aura, este ataque gana Keyword "Nen". Además, el usuario de Nen puede aumentar el tamaño del cada dado, invirtiendo 2 de aura por aumento, por dado. Finalmente, este ataque gana rango largo de 120'.
+              </li>
+              <li>
+                Este ataque se considera un ataque de rango, por lo que su distancia puede ser aumentada invirtiendo Aura según el punto anterior.
+              </li>
+              <li>
+                Desprender no está limitado a funciones ofensivas.
+              </li>
+            </ul>
 
-
+          </ul>
+        </div>
+        <div class="col-4">
+          <table class="table table-striped" id="ProgresionBasicas" style="text-align: center;">
+            <!-- <h4> Progresión de Técnicas Básicas</h4> -->
+            <thead>
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Daño básico/máximo</th>
+                    <th scope="col">Rango máximo</th>
+          
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">1st</td>
+                    <td>1d6</td>
+                    <td> 5'/10'/20' </td>
+          
+                </tr>
+                <tr>
+                  <td scope="row">2nd</td>
+                  <td> --- </td>
+                  <td> --- </td>
+          
+              </tr>
+                <tr>
+                  <td scope="row">3rd</td>
+                  <td> 1d6/1d8 </td>
+                  <td> --- </td>
+                </tr>
+                <tr>
+                  <td scope="row"> 4th</td>
+                  <td> 2d6/2d8 </td>
+                  <td> 10'/20'/40' </td>
+                </tr>
+                <tr>
+                  <td scope="row">5th</td>
+                  <td> --- </td>
+                  <td> --- </td>
+                  
+                </tr>
+                <tr>
+                  <td scope="row">6th</td>
+                  <td> 2d6/2d10 </td>
+                  <td> --- </td>
+          
+                </tr>
+                <tr>
+                  <td scope="row">7th</td>
+                  <td> 3d6/3d10 </td>
+                  <td> 15'/30'/60'</td>
+          
+                </tr>
+                <tr>
+                  <td scope="row">8th</td>
+                  <td> --- </td>
+                  <td> --- </td>
+                </tr>
+                <tr>
+                  <td scope="row"> 9th</td>
+                  <td> 3d6/3d12 </td>
+                  <td> -- </td>
+                </tr>
+                <tr>
+                  <td scope="row"> 10th</td>
+                  <td> 4d6/4d12 </td>
+                  <td> 20'/40'/80' </td>
+          
+                </tr>
+                </tbody>
+                </table>
+        </div>
+        </div>
+        </div>
 
 
     <div class="blog-post" style="text-align: justify;">
 
       <h3 class="pb-3 mb-4 font-italic border-bottom" id="TecnicasAvanzadas">Tecnicas Avanzadas</h3>
+
+      <div id="avanzadaGyo">
+
       <h3>  Gyo (凝ギョウ, Gyō; "Focus") </h3>
       <p>
         Gyo es una aplicación avanzada de Ren mediante la cual un usuario de Nen concentra una porción de su aura mayor de lo normal en una parte específica del cuerpo.
@@ -1532,7 +2103,7 @@
       <div class="row">
         <div class="col-6">
         
-        <table class="table table-striped" id="ProgresionBasicas" style="text-align: center;">
+        <table class="table table-striped" id="" style="text-align: center;">
           <!-- <h4> Progresión de Técnicas Básicas</h4> -->
           <thead>
               <tr>
@@ -1641,23 +2212,145 @@
                 <li>
                   Pene - Puedes mantener erecciones mas duras y duraderas.
                 </li>
-
               </ul>
-
-              </ul>
+              <p>
+                <i>
+        
+                  NOTA: Solo puedes concentrar tu aura para mejorar <strong>UNA</strong> habilidad (o parte del cuerpo) la vez. 
+                  </i>
+        
+              </p>
             </div>
             </div>
+            <p>
+              <i>
+      
+                NOTA: Gyo puede activarse con una accion bonus, en tu turno. <strong> Gyo no puede activarse como reaccion ni como No action </strong>. 
+                </i>
+      
+            </p>
+            </div>
+      
+      
+      
+<div id="avanzadaShu">
       <h4> Shu (周シュウ, Shū; «Envolver»).  </h4>
       <p>
-        Shu permite envolver objetos en tu aura, fortaleciéndolos y convirtiéndolos en armas mortales o armaduras resistentes. 
-        Mientras usas Ten, puedes usar una acción de bonus y gastar 1 de Aura para rodear con tu aura cualquier arma que estés sosteniendo, 
-        tratándola como un ataque desarmado a efectos de los rasgos de clase de Usuario de Nen. 
-        Este rasgo dura lo que dura tu Ten. 
-        Además, puedes usar una acción gratuita y gastar 1 Aura para rodear tu ropa (o armadura) con tu aura, haciéndola más dura, 
-        y dándote un bonificador a la CA igual a tu bonificador de competencia. 
-        Sólo puedes activar una habilidad de Shu a la vez. A
-         nivel 11, tu control de Shu mejora lo suficiente como para permitirte activar ambas habilidades al mismo tiempo.
-      </p>
+        Shu es una aplicación avanzada de Ten. Shu permite a un usuario de Nen extender su aura sobre un objeto, permitiéndoles usar ese objeto como si fuera una extensión de su propio cuerpo. Por ejemplo, se podría utilizar Shu extender su Ten alrededor de un objeto, lo que fortalecería y protegeria el objeto de la misma forma en que Ren fortalece y protege su cuerpo. Puedes usar Shu como instancias de Ten, por lo que tu eficiencia en Shu está determinada por tu dominio de Ten. Si aprendes Shu para fortalecer un objeto, pero tu nivel de Ten es bajo, sólo podrás usar un poco de aura para mejorar los efectos de dicho objeto.
+        </p>
+        <p>
+          Los usos de Shu no se limitan al combate. Sin embargo, a continuación se detallan los usos ofensivo y defensivo mas comunes.
+        </p>
+
+      <div class="row">
+        <div class="col-6">
+        
+        <table class="table table-striped" id="intermediaShu" style="text-align: center;">
+          <!-- <h4> Progresión de Técnicas Básicas</h4> -->
+          <thead>
+              <tr>
+                  <th scope="col">Nivel</th>
+                  <th scope="col">Xp</th>
+                  <th scope="col">Feature</th>
+
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td scope="row">1st</td>
+                  <td>---</td>
+                  <td> 
+                    1 instancia de Ten
+                  </td>
+
+              </tr>
+              <tr>
+                <td scope="row">2nd</td>
+                <td> 210 </td>
+                <td> --- </td>
+
+            </tr>
+              <tr>
+                <td scope="row">3rd</td>
+                <td> 460 </td>
+                <td> --- </td>
+              </tr>
+              <tr>
+                <td scope="row"> 4th</td>
+                <td> 750 </td>
+                <td> 2 instancias de Ten </td>
+              </tr>
+              <tr>
+                <td scope="row">5th</td>
+                <td> 1080 </td>
+                <td> --- </td>
+                
+              </tr>
+              <tr>
+                <td scope="row">6th</td>
+                <td> 1450 </td>
+                <td> --- </td>
+
+              </tr>
+              <tr>
+                <td scope="row">7th</td>
+                <td> 1860 </td>
+                <td> 3 instancias de Ten </td>
+
+              </tr>
+              <tr>
+                <td scope="row">8th</td>
+                <td> 2310 </td>
+                <td> --- </td>
+              </tr>
+              <tr>
+                <td scope="row"> 9th</td>
+                <td> 2800 </td>
+                <td> --- </td>
+              </tr>
+              <tr>
+                <td scope="row"> 10th</td>
+                <td> 3330 </td>
+                <td> Max instancias de Ten </td>
+
+              </tr>
+              </tbody>
+              </table>
+            </div>
+
+          <div class="col-6">
+
+            <ul>
+              <li>
+                Al activar Ten, y como parte de la misma acción, puedes usar 2 de aura adicional por instancia de Ten utilizada, para rodear con tu aura cualquier objeto que estés sosteniendo, convirtiéndolo en un arma mortífera, con un daño dependiente de la cantidad de aura utilizada (1d6 con 2 de aura, 1d8 con 4 de aua, 1d10 con 6 de aura o 1d12 con 8 de aura). Si lo que sostienes es un arma, su daño se incrementa en un nivel por cada instancia de Ten que hayas invertido al activar Ten, si es que decides gastar el aura correspondiente. 
+                <ul>
+                  <li>
+                    Por ejemplo, si tienes un arma de 1d6, y activas Ten con 4 instancias, puedes invertir hasta 8 de aura para que esa arma aumente su daño en 4 niveles (1d6->1d8->1d10->1d12->2d6). 
+                  </li>
+                <li>
+                  <strong>El hacer esto otorga Keyword Nen a tus ataques realizados con dicho objeto u arma.</strong>
+                </li>
+                </ul>
+              </li>
+              <li>
+                Opcionalmente, al activar Ten, y como parte de la misma acción, puedes gastar 2 de Aura adicional por instanciade Ten para rodear tus ropajes con tu aura, haciéndola más firme y resistente, otorgando un bonificador a la CA igual a 2 x instancias utilizadas como bono de armadura. 
+              Sólo puedes activar una habilidad de Shu a la vez.
+              </li>
+              <li>
+                Ambas aplicaciones son dependientes del nivel de Ten que te permita utilizar Shu (ver tablas de <a href="#intermediaShu">Shu</a> y <a href="#TecnicasBasicas">Ten</a>)
+              </li>
+            </ul>
+
+</div>
+            </div>
+            <p>
+              <i>
+      
+                NOTA: Shu puede activarse como parte de la misma accion que Ten. <strong> Sin embargo, activar Shu fuera de tu turno tiene un costo mayor que activar Ten por si solo, y debe calcularse de manera independiente para obtener el total de aura invertida </strong>. 
+                </i>
+      
+            </p>
+    </div>
       <h4> In (隱イン; "Ocultar") </h4>
       <h4> En (円エン; "Circulo") </h4>
       <h4> Ko (硬コウ, Kō; "Temperamento") </h4>
@@ -1671,27 +2364,45 @@
       
     <div class="blog-post" style="text-align: justify;">
 
-      <h3 class="pb-3 mb-4 font-italic border-bottom" id="TecnicasAvanzadas">Dotes</h3>
-<ul>
-  <li>
-    Instancia de Nen Mejorada:
-  </li>
-  <li>
-  
-  </li>
+      <h3 class="pb-3 mb-4 font-italic border-bottom" id="dotes">Dotes</h3>
+
+      <div id="">
+        <h4>
+          Instancia de Nen Mejorada
+        </h4>
+        <p>
+          Requisito: Habilidad básica o avanzada, que requiera instancias de Nen, en nivel 5 o superior
+        </p>
+      <p>
+          Beneficio: Ganas +1 a las instancias de Nen máximas con esta técnica.
+      </p>  
+      </div>
+
+      <div>
+        <h4>
+          Ten y Ren cada dia
+        </h4>
+        <p>
+          Requisito: Practicar Ten y Ren cada día, por al menos 30 días.
+        </p>
+        <p>
+          Beneficio: Ganas +1 al bono otorgado por cada instancia de Nen, de Ten y Ren.
+        </p>
+      </div>
+
+      <div id="">
+        <h4>
+          Manejo de Ren avanzado
+        </h4>
+        <p>
+          Requisito: Ren nivel 4.
+        </p>
+        <p>
+          Beneficio: Puedes elegir un arma marcial, y utiizarla como un arma simple para efectos de utilizar Ren.
+        </p>
+      </div>
 
 
-</ul>
-
-
-      <ul>
-        <li>
-          Improven Nen instances:
-        </li>
-        <li>
-          Improved Nen Power:
-        </li>
-      </ul>
     </div>
     </main><!-- /.container -->
 
